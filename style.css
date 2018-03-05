@@ -1,57 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lalezar|Lobster|Roboto+Condensed|Roboto+Slab|Raleway:900');
-
-
-
 .navbar-custom {
-
     font-size: 1.2em;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: rgb(34, 54, 48) !important;
 }
-
 .bg-secondary {
     background-color: rgb(34, 54, 48) !important;
 }
-
 /* change the brand and text color */
-
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(255, 255, 255, .8);
 }
-
 /* change the link color */
-
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .5);
     margin: 2px;
     padding: 20px;
 }
-
 /* change the color of active or hovered links */
-
 .navbar-custom .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #fff;
 }
-
 .nav-link:hover {
     border-radius: 10pt;
     background-color: rgb(240, 88, 60);
 }
-
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Raleway', sans-serif;
 }
-
 .jumbo {
     background-color: #F1E9DA;
     padding-top: 1px;
     padding-bottom: 50px;
 }
-
 .circle {
     margin: auto;
     height: 300px;
@@ -60,7 +45,6 @@
     background: #5C415D;
     margin-top: 150px;
 }
-
 #logo {
     font-family: 'Lobster', cursive;
     color: #D5E2D6;
@@ -76,66 +60,54 @@
     text-shadow: 1px 1px #2E294E, 2px 2px #2E294E, 3px 3px #2E294E, 4px 4px #2E294E, 5px 5px #2E294E, 6px 6px #2E294E, 7px 7px #2E294E, 8px 8px #2E294E, 9px 9px #2E294E, 10px 10px #2E294E, 11px 11px #2E294E, 12px 12px #2E294E, 13px 13px #2E294E, 14px 14px #2E294E, 15px 15px #2E294E, 16px 16px #2E294E, 17px 17px #2E294E, 18px 18px #2E294E, 19px 19px #2E294E, 20px 20px #2E294E, 21px 21px #2E294E, 22px 22px #2E294E, 23px 23px #2E294E, 24px 24px #2E294E, 25px 25px #2E294E, 26px 26px 6px #fff;
 
 }
-
 #logo > span:nth-child(3),
 span:nth-child(7) {
     font-size: 40px;
 }
-
 #logo > span:nth-child(1),
 span:nth-child(9),
 span:nth-child(5) {
     font-size: 75px;
 }
-
 .brand {
     font-family: 'Alfa Slab One', cursive;
     font-size: 1.2em;
     color: aliceblue
 }
-
-.portfolio {
-    font-family: Raleway;
-
-}
-
-
 .portfolio-padding {
     padding-top: 50px;
     padding-bottom: 50px;
+     text-align: center;
 }
-
-.portfolio-align {
-    text-align: center;
-}
-
 .card-margin {
     margin: 10px;
 }
-
-
-
-.about-padding {
-    padding-top: 50px;
-}
-
-
-
 .model-design {
     font-family: Raleway;
     font-size: 1.2em;
     color: darkslategrey;
 }
-
 .social {
     background-color: #223630;
     padding: 50px;
     color: aliceblue;
     font-size: 3em;
 }
-
 .social > div {
     text-align: center;
     padding-bottom: 25px;
-    =
+}
+#navbarResponsive {
+    font-family:'Lalezar';
+}
+#contact {
+     padding-top: 50px;background-color:#5C415D; font-family: Raleway; text-align: center;color: aliceblue; padding-bottom: 50px;
+}
+.social>a:link, .social>a:visited {
+    color: aliceblue;
+    padding: 50px;
+}
+.social>a:hover {
+    color: #F1E9DA;
+    padding: 50px;
 }
