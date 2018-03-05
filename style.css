@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lalezar|Lobster|Roboto+Condensed|Roboto+Slab|Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster|Raleway:900');
 .navbar-custom {
     font-size: 1.2em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -96,9 +96,6 @@ span:nth-child(5) {
 .social > div {
     text-align: center;
     padding-bottom: 25px;
-}
-#navbarResponsive {
-    font-family:'Lalezar';
 }
 #contact {
      padding-top: 50px;background-color:#5C415D; font-family: Raleway; text-align: center;color: aliceblue; padding-bottom: 50px;
