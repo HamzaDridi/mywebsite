@@ -115,7 +115,7 @@ span:nth-child(5) {
     @font-face {
   font-family: 'icomoon';
   src:
- url('fonts/icomoon.woff?z9d57z') format('woff');
+ url('/icomoon.woff?z9d57z') format('woff');
   font-weight: normal;
   font-style: normal;
 }
