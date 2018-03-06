@@ -103,8 +103,44 @@ span:nth-child(5) {
 .social>a:link, .social>a:visited {
     color: aliceblue;
     padding: 50px;
+    font-weight: 900;
 }
 .social>a:hover {
     color: #F1E9DA;
     padding: 50px;
+    text-decoration:none;
+}
+
+
+    @font-face {
+  font-family: 'icomoon';
+  src:
+ url('fonts/icomoon.woff?z9d57z') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  
+}
+
+.icon-at:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
 }
